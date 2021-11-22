@@ -3,7 +3,7 @@ const http = require('http');
 const app = require('./app');
 const logs = require('./lib/logs');
 const terminus = require('./lib/terminus');
-const { rtspToHls, intervalRemoveVideo } = require('./modules/camera/service');
+const { rtspToHls, intervalRemoveVideo } = require('./camera/service');
 
 const server = http.createServer(app);
 

@@ -2,8 +2,8 @@ const findRemoveSync = require('find-remove');
 const path = require('path');
 const fs = require('fs').promises;
 const { exec } = require('child_process');
-const logs = require('../../lib/logs');
-const { pool } = require('../../lib/pg');
+const logs = require('../lib/logs');
+const { pool } = require('../lib/pg');
 
 const removeVideo = (camera) => {
   const folderPath = path.join(`${__dirname}/videos/${camera}`);

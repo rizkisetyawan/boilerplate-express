@@ -1,4 +1,4 @@
-const { camera } = require('./modules');
+const camera = require('./camera');
 
 const routes = (app) => {
   app.use('/camera', camera);
