@@ -1,7 +1,5 @@
-const auth = require('./auth');
-const user = require('./user');
+const camera = require('./camera');
 
 module.exports = {
-  auth,
-  user,
+  camera,
 };
